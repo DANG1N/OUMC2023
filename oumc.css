@@ -1,0 +1,299 @@
+
+/************ General Styles **************/
+body
+{
+    background-color: white;
+    background-image: url(../img/pagebg.jpg), url(../img/pelliot.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, top right;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 0px;
+/**    cursor: pointer  **/
+/** pelliot link should appear to be clickable**/
+
+}
+
+.clear
+{
+    clear: both;
+}
+ul li.right
+{
+    float: right;
+}
+
+/************ Layout and Themes **************/
+.nav-secondary
+{
+    margin-top: 6px;
+    float: left;
+    width: 200px;
+}
+.main-content
+{
+    margin-top: 6px;
+    margin-left: 206px;
+}
+
+.wrapper
+{
+    background-color: #efefef;
+    margin-left: 5%;
+    margin-right: 8%;
+    padding: 12px;
+    
+    min-width: 730px;
+    max-width: 1070px;
+}
+
+.banner
+{
+    height: 200px;
+    background-image: url(../img/banner.jpg);
+    background-position: 100% 30%;
+    /*background-image: url(../img/slide_sidepike.jpg);
+    background-position: 20% 23%;*/
+    /*background-image: url(../img/banner-sentinal.jpg);
+    background-position: 100% 40%;*/
+}
+
+.content
+{
+    background-color: white;
+    height: 100%;
+    padding: 12px;
+}
+
+body.noleftnav .main-content
+{
+    margin-left: 0px;
+}
+
+/* top-tabs layout */
+body.layout-top .main-nav
+{
+    background-color: white;
+    padding: 6px 6px;
+}
+body.layout-top #slideshow
+{
+}
+/* alt layout */
+body.layout-alt
+{
+    background-image: url(../img/bigheader-sentinal.jpg);
+    background-size: contain;
+}
+body.layout-alt .wrapper .content
+{
+    padding-bottom: 350px;
+}
+body.layout-alt .main-nav-wrapper
+{
+    margin-top: 210px;
+    margin-bottom: 24px;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+body.layout-alt .main-nav
+{
+    margin: 0px 0px;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid white;
+    padding: 6px;
+}
+body.layout-alt .main-nav ul
+{
+    padding-left: 12px;
+}
+
+.footer
+{
+    padding: 12px 6px 0px 12px;
+    clear: both;
+    color: #666;
+    font-size: 0.9em;
+}
+.footer a
+{
+    margin: 0px 6px;
+    display: inline-block;
+}
+
+.glyphicon-fb:before
+{
+    background-image: url(../img/icons/fb.png);
+    width: 14px;
+    height: 14px;
+}
+
+/* quick links */
+.main-nav li.quick-link
+{
+    float: right;
+}
+.main-nav li.quick-link a
+{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    padding: 4px;
+    margin: 4px;
+}
+.main-nav li.quick-link.quick-link-text a
+{
+    width: auto;
+    background-repeat: no-repeat;
+    padding: 6px 4px 4px 34px;
+    color: black;
+}
+.main-nav li.quick-link.weather a
+{
+    background-image: url(../img/icons/weather-32-black.png);
+}
+.main-nav li.quick-link.chat a
+{
+    background-image: url(../img/icons/chat-32-black.png);
+}
+.main-nav li.quick-link.fb a
+{
+    background-image: url(../img/icons/fb-32-black.png);
+}
+
+/************ Content Styles **************/
+
+.panel .panel-heading h3
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img.left-margin
+{
+    clear: both;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+img.right-margin
+{
+    clear: both;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* landing pages */
+.landing-page .row
+{
+    margin-left: 1px;
+}
+.landing-page .thumbnail
+{
+    position: relative;
+}
+.landing-page .thumbnail img
+{
+    width: 320px;
+}
+.landing-page .thumbnail h4
+{
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    margin-left: -4px;
+    color: white;
+    padding: 0px 4px;
+    margin-bottom: 4px;
+}
+.landing-page .thumbnail h4 span
+{
+    display: inline-block;
+    width: 100%;
+    padding: 12px 0px;
+    background-color: black;
+    opacity: 0.8;
+}
+
+/* committee page */
+.committee img
+{
+    max-width: 150px;
+}
+
+/* venue pages*/
+img.location
+{
+    float: left;
+    margin: 8px 8px 8px 0;
+    max-width: 425px;
+}
+
+/* documents page*/
+.doc-download
+{
+    margin-right: 24px;
+}
+.doc-download img
+{
+    margin-bottom: 12px;
+}
+.media .well
+{
+    padding-bottom: 0px;
+}
+.media .well p
+{
+    margin-bottom: 0px;
+}
+/* Termcard Styles */
+body.calendar iframe
+{
+    width: 100%;
+    height: 700px;
+}
+
+/* FAQ */
+.accordion
+{
+    margin-top: 12px;
+}
+h3.ui-accordion-header
+{
+    color: white;
+    background-color: #444;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    padding: 6px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+div.ui-accordion-content
+{
+    border: solid 1px #444;
+    padding: 12px;
+}
+img.shop-icon {
+    max-width: 200px;
+}
+
+
+/* code markup (for webmaster notes) */
+pre
+{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color: #000;
+}
+
+pre span.codecomment
+{
+    color: #44b;
+}
